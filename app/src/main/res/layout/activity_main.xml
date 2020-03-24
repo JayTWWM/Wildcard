@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginLeft="40dp"
+        android:text="Wildcard Scratch Implementation!" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:elevation="@android:dimen/app_icon_size"
+        android:fadingEdge="horizontal"
+        android:text="Win" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:elevation="@android:dimen/app_icon_size"
+        android:fadingEdge="horizontal"
+        android:gravity="center|center_horizontal"
+        android:text="Lose" />
+
+</LinearLayout>
